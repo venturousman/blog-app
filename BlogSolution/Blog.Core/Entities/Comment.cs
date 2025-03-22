@@ -10,5 +10,10 @@ public class Comment : BaseEntity<long>
 {
     public Comment()
     {
+        Content = string.Empty;
     }
+
+    public string Content { get; set; }
+    public long BlogId { get; set; }
+    public long? ParentId { get; set; }
 }

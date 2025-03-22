@@ -1,4 +1,5 @@
-@Blog.Web_HostAddress = http://localhost:5167
+# @Blog.Web_HostAddress = http://localhost:5167
+@Blog.Web_HostAddress = https://nht-blog-api-ekejbteqerhec4a6.eastus2-01.azurewebsites.net
 
 GET {{Blog.Web_HostAddress}}/weatherforecast/
 Accept: application/json
